@@ -1,0 +1,46 @@
+body {
+  background-color: #1e1b3a;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  color: #e0d6ff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: #2d225c;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.avatars {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.avatars img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+input {
+  width: 90%;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #a855f7;
+  background-color: #3b2379;
+  color: #e0d6ff;
+  margin-bottom: 0.8rem;
+  display: block;
+}
